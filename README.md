@@ -1,4 +1,4 @@
 algoritmica
 ===========
 
-A fully templetized algorithms library
+A fully templatized algorithms library.

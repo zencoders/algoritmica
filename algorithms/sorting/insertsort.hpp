@@ -16,7 +16,7 @@ void insertsort(T1 s[], int size)
     for(int i = 1; i < size; i++)
     {
         int j = i;
-        while((j < size) && (s[j] < s[j-1]))
+        while((j > 0) && (s[j] < s[j-1]))
         {
             details::swap(&s[j], &s[j-1]);
             j--;
